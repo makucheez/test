@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BookOpen, Clock, Users, ArrowRight, Globe2 } from 'lucide-react';
+import { BookOpen, Clock, Users, ArrowRight, Globe2, Star, Briefcase } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useTranslation } from '@/locales/translations';
@@ -109,7 +109,7 @@ const TurkishCoursesPreview = () => {
             {/* Header */}
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-brand-500 rounded-lg flex items-center justify-center">
-                <BookOpen className="w-6 h-6 text-white" />
+                <Star className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white">
                 {language === 'tr' ? 'Seviyeler' : 'Levels'}

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { GraduationCap, Award, Target, Users, ArrowRight, Globe } from 'lucide-react';
+import { GraduationCap, Award, Target, Users, ArrowRight, Languages, Rocket, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useTranslation } from '@/locales/translations';
@@ -14,10 +14,10 @@ const EnglishCoursesPreview = () => {
   const router = useRouter();
 
   const examTypes = [
-    { name: 'YDS', icon: GraduationCap, color: 'text-blue-400' },
-    { name: 'YÖKDİL', icon: Award, color: 'text-purple-400' },
+    { name: 'YDS', icon: Rocket, color: 'text-blue-400' },
+    { name: 'YÖKDİL', icon: Star, color: 'text-purple-400' },
     { name: 'TOEFL', icon: Target, color: 'text-green-400' },
-    { name: 'IELTS', icon: Globe, color: 'text-brand-400' }
+    { name: 'IELTS', icon: Languages, color: 'text-brand-400' }
   ];
 
   const features = [

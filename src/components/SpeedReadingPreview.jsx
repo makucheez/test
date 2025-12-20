@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BookOpen, Zap, TrendingUp, ArrowRight } from 'lucide-react';
+import { Brain, Zap, TrendingUp, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useTranslation } from '@/locales/translations';
@@ -25,7 +25,7 @@ const SpeedReadingPreview = () => {
       color: "text-green-400"
     },
     {
-      icon: BookOpen,
+      icon: Brain,
       title: t.speedReading.instructor || "Türkolog Yusuf Güler",
       color: "text-brand-400"
     }

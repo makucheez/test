@@ -22,7 +22,7 @@ const Navigation = () => {
   ]
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#fdd100] border-b border-black/20">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-brand-500 border-b border-black/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -34,7 +34,7 @@ const Navigation = () => {
           >
             <Link href="/">
               <img
-                src="https://horizons-cdn.hostinger.com/4bb107bf-15c8-48b4-b8a0-a76b2ea6c898/a48328a90a7da94f1e046d2871f4df9f.png"
+                src="/logo.png"
                 alt="Etkili Eğitim Kurumları Logo"
                 className="h-16 w-auto cursor-pointer"
               />
