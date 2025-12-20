@@ -1,6 +1,7 @@
 import { LanguageProvider } from '@/contexts/LanguageContext'
 import { Toaster } from '@/components/ui/toaster'
 import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 import './globals.css'
 
 export const metadata = {
@@ -19,11 +20,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="tr">
-      <body>
+    <html lang="tr" className="scroll-smooth">
+      <body className="overflow-x-hidden">
         <LanguageProvider>
           <Navigation />
-          <main>{children}</main>
+          <main className="transition-all duration-300">{children}</main>
+          <Footer />
           <Toaster />
         </LanguageProvider>
       </body>

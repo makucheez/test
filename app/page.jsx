@@ -1,4 +1,7 @@
 import HeroSection from '@/components/HeroSection'
+import SpeedReadingPreview from '@/components/SpeedReadingPreview'
+import EnglishCoursesPreview from '@/components/EnglishCoursesPreview'
+import TurkishCoursesPreview from '@/components/TurkishCoursesPreview'
 
 export const metadata = {
   title: 'Ana Sayfa - Etkili Eğitim Kurumları',
@@ -6,5 +9,12 @@ export const metadata = {
 }
 
 export default function HomePage() {
-  return <HeroSection />
+  return (
+    <>
+      <HeroSection />
+      <SpeedReadingPreview />
+      <EnglishCoursesPreview />
+      <TurkishCoursesPreview />
+    </>
+  )
 }
