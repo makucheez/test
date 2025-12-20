@@ -32,14 +32,18 @@ const SpeedReadingPreview = () => {
   ];
 
   return (
-    <section className="py-20 bg-slate-900 relative">
+    <section className="py-20 bg-slate-900 relative overflow-hidden">
       {/* Top Divider */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brand-500/50 to-transparent"></div>
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brand-500/50 to-transparent z-20"></div>
 
-      {/* Decorative Elements */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-20 h-20 bg-brand-500/10 rounded-full blur-3xl"></div>
+      {/* Gradient Background */}
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-slate-900/95 to-slate-900 z-0"></div>
 
-      <div className="container mx-auto px-4">
+      {/* Animated Gradient Orbs */}
+      <div className="absolute top-20 left-10 w-72 h-72 bg-brand-500/10 rounded-full blur-3xl animate-pulse z-0"></div>
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-red-500/10 rounded-full blur-3xl animate-pulse z-0" style={{ animationDelay: '1s' }}></div>
+
+      <div className="container mx-auto px-4 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

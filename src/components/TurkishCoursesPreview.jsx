@@ -39,14 +39,15 @@ const TurkishCoursesPreview = () => {
   ];
 
   return (
-    <section className="py-20 bg-slate-900 relative">
-      {/* Top Divider */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-purple-500/50 to-transparent"></div>
+    <section className="py-20 bg-slate-900 relative overflow-hidden">
+      {/* Gradient Background */}
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-900/95 via-slate-900 to-slate-900"></div>
 
-      {/* Decorative Elements */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-20 h-20 bg-purple-500/10 rounded-full blur-3xl"></div>
+      {/* Animated Gradient Orbs */}
+      <div className="absolute top-10 left-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse"></div>
+      <div className="absolute bottom-32 right-1/4 w-72 h-72 bg-brand-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
 
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

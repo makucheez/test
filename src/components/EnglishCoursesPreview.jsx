@@ -27,20 +27,24 @@ const EnglishCoursesPreview = () => {
   ];
 
   return (
-    <section className="py-20 bg-slate-800 relative">
-      {/* Top Divider */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-blue-500/50 to-transparent"></div>
+    <section className="py-20 bg-slate-900 relative overflow-hidden">
+      {/* Gradient Background */}
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-slate-900/90 to-slate-900"></div>
 
-      {/* Decorative Elements */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-24 bg-blue-500/10 rounded-full blur-3xl"></div>
+      {/* Animated Gradient Orbs */}
+      <div className="absolute top-32 right-20 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '0.5s' }}></div>
+      <div className="absolute bottom-10 left-20 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1.5s' }}></div>
 
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 relative z-10">
+        {/* Main Card Container */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+          className="bg-slate-800 rounded-3xl p-8 md:p-12 border border-slate-700/50 shadow-2xl"
+        >
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
         >
           {/* Left Side - Visual Card */}
           <motion.div
@@ -135,6 +139,7 @@ const EnglishCoursesPreview = () => {
               {language === 'tr' ? 'Kursları İncele' : 'Explore Courses'}
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
+          </div>
           </div>
         </motion.div>
       </div>
