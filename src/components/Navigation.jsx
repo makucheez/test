@@ -20,6 +20,7 @@ const Navigation = () => {
     { name: t.nav.english, href: '/ingilizce' },
     { name: t.nav.speedReading, href: '/hizli-okuma' },
     { name: t.nav.about, href: '/hakkimizda' },
+    { name: t.nav.blog, href: '/blog' },
     { name: t.nav.contact, href: '/iletisim' }
   ]
 

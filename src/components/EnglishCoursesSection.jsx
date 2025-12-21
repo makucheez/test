@@ -129,7 +129,7 @@ const EnglishCoursesSection = () => {
           className="text-center mb-20"
         >
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-brand-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-brand-500 via-red-500 to-yellow-500 bg-clip-text text-transparent">
               {t.englishCourses.title}
             </span>{' '}
             {t.englishCourses.titleSpan}

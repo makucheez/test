@@ -98,7 +98,7 @@ const TurkishCoursesSection = () => {
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             {t.turkishCourses.title}{' '}
-            <span className="bg-gradient-to-r from-brand-500 via-purple-500 to-red-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-brand-500 via-red-500 to-yellow-500 bg-clip-text text-transparent">
               {t.turkishCourses.titleSpan}
             </span>
           </h1>

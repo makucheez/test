@@ -6,6 +6,7 @@ export const translations = {
       turkishCourses: 'Türkçe Kursları',
       english: 'İngilizce',
       speedReading: 'Hızlı Okuma',
+      blog: 'Blog',
       contact: 'İletişim'
     },
     hero: {
@@ -448,6 +449,7 @@ export const translations = {
       turkishCourses: 'Turkish Courses',
       english: 'English',
       speedReading: 'Speed Reading',
+      blog: 'Blog',
       contact: 'Contact'
     },
     hero: {

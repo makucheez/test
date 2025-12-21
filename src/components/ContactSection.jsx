@@ -138,7 +138,7 @@ const ContactSection = () => {
           className="text-center mb-20"
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-brand-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-brand-500 via-red-500 to-yellow-500 bg-clip-text text-transparent">
               {t.contact.title}
             </span>{' '}
             <span className="text-white">{t.contact.titleSpan}</span>
