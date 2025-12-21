@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Clock, Users, Calendar, GraduationCap, CheckCircle, BookOpen, DollarSign, Globe2, Sparkles, Award, Briefcase, TrendingUp, Star, Heart } from 'lucide-react';
+import { Clock, Users, Calendar, GraduationCap, CheckCircle, BookOpen, DollarSign, Globe2, Sparkles, Award, Briefcase, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/components/ui/use-toast';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -96,18 +96,6 @@ const TurkishCoursesSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-20"
         >
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            className="inline-flex items-center gap-2 bg-brand-500/10 backdrop-blur-sm px-6 py-3 rounded-full border border-brand-500/30 mb-6"
-          >
-            <Star className="w-5 h-5 text-brand-400" />
-            <span className="text-brand-400 font-semibold">
-              {language === 'tr' ? 'Türkçe Öğretim Merkezi' : 'Turkish Language Center'}
-            </span>
-          </motion.div>
-
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             {t.turkishCourses.title}{' '}
             <span className="bg-gradient-to-r from-brand-500 via-purple-500 to-red-500 bg-clip-text text-transparent">
@@ -158,7 +146,7 @@ const TurkishCoursesSection = () => {
                 <div className={`absolute inset-0 bg-gradient-to-br ${colors.glow} rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500`}></div>
 
                 {/* Card Content */}
-                <div className={`relative bg-slate-800/50 backdrop-blur-xl p-8 md:p-10 rounded-3xl border ${colors.border} transition-all duration-300`}>
+                <div className={`relative bg-slate-800/50 backdrop-blur-xl p-8 md:p-10 rounded-3xl border ${colors.border} transition-all duration-300 h-full flex flex-col`}>
                   {/* Course Header */}
                   <div className="flex items-start justify-between mb-6">
                     <div className="flex-1">
@@ -213,7 +201,7 @@ const TurkishCoursesSection = () => {
                   </div>
 
                   {/* Features Section */}
-                  <div className={`bg-gradient-to-br ${colors.gradient} backdrop-blur-sm p-6 rounded-2xl border ${colors.border}`}>
+                  <div className={`bg-gradient-to-br ${colors.gradient} backdrop-blur-sm p-6 rounded-2xl border ${colors.border} mt-auto`}>
                     <h4 className="text-white font-bold mb-4 flex items-center gap-2">
                       <BookOpen className={`w-5 h-5 ${colors.text}`} />
                       {t.turkishCourses.courseContent}

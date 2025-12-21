@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BookOpen, GraduationCap, CheckCircle, Target, Award, Users, Sparkles, Globe2, Zap, Rocket, Brain, TrendingUp, Star, Lightbulb, Languages } from 'lucide-react';
+import { BookOpen, GraduationCap, CheckCircle, Target, Award, Users, Sparkles, Globe2, Zap, Rocket, Brain, TrendingUp, Star, Lightbulb } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/components/ui/use-toast';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -28,7 +28,7 @@ const EnglishCoursesSection = () => {
     3: TrendingUp,
     4: Star,
     5: Lightbulb,
-    6: Languages,
+    6: Globe2,
     7: Target,
     8: Award
   };
@@ -128,18 +128,6 @@ const EnglishCoursesSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-20"
         >
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            className="inline-flex items-center gap-2 bg-blue-500/10 backdrop-blur-sm px-6 py-3 rounded-full border border-blue-500/30 mb-6"
-          >
-            <Languages className="w-5 h-5 text-blue-400" />
-            <span className="text-blue-400 font-semibold">
-              {language === 'tr' ? 'İngilizce Eğitim Programları' : 'English Education Programs'}
-            </span>
-          </motion.div>
-
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-brand-500 bg-clip-text text-transparent">
               {t.englishCourses.title}
@@ -324,7 +312,7 @@ const EnglishCoursesSection = () => {
                   <div className={`absolute inset-0 bg-gradient-to-br ${colors.glow} rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500`}></div>
 
                   {/* Card Content */}
-                  <div className={`relative bg-slate-800/50 backdrop-blur-xl p-8 rounded-2xl border ${colors.border} transition-all duration-300`}>
+                  <div className={`relative bg-slate-800/50 backdrop-blur-xl p-8 rounded-2xl border ${colors.border} transition-all duration-300 h-full flex flex-col`}>
                     <div className="flex items-start justify-between mb-6">
                       <h3 className="text-2xl font-bold text-white flex-1">{exam.title}</h3>
                       <div className={`w-12 h-12 bg-gradient-to-br ${colors.gradient} rounded-xl flex items-center justify-center flex-shrink-0 border ${colors.border}`}>
@@ -332,15 +320,15 @@ const EnglishCoursesSection = () => {
                       </div>
                     </div>
 
-                    <p className="text-gray-300 mb-6 leading-relaxed">{exam.description}</p>
+                    <p className="text-gray-300 mb-6 leading-relaxed flex-1">{exam.description}</p>
 
-                    <div className="space-y-3">
+                    <div className="space-y-3 mt-auto">
                       <div className="flex items-center bg-slate-900/50 backdrop-blur-sm p-3 rounded-lg">
-                        <span className="text-gray-400 text-sm mr-3">{t.englishCourses.requirement}:</span>
+                        <span className="text-gray-400 text-sm mr-3">{t.englishCourses.requirement}</span>
                         <span className="text-white font-medium">{exam.requirement}</span>
                       </div>
                       <div className="flex items-center bg-slate-900/50 backdrop-blur-sm p-3 rounded-lg">
-                        <span className="text-gray-400 text-sm mr-3">{t.englishCourses.program}:</span>
+                        <span className="text-gray-400 text-sm mr-3">{t.englishCourses.program}</span>
                         <span className="text-white font-medium">{exam.schedule}</span>
                       </div>
                     </div>

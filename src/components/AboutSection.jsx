@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion';
-import { BookOpen, Users, Award, Globe, MapPin, BookMarked, Sparkles, Heart, Zap, Target, TrendingUp, Shield, Star, Rocket } from 'lucide-react';
+import { BookOpen, Users, Award, Globe, MapPin, BookMarked, Sparkles, Zap, Target, TrendingUp, Shield, Star, Rocket } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useTranslation } from '@/locales/translations';
 
@@ -99,18 +99,6 @@ const AboutSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-20"
         >
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            className="inline-flex items-center gap-2 bg-brand-500/10 backdrop-blur-sm px-6 py-3 rounded-full border border-brand-500/30 mb-6"
-          >
-            <Heart className="w-5 h-5 text-brand-400" />
-            <span className="text-brand-400 font-semibold">
-              {language === 'tr' ? 'Hakkımızda' : 'About Us'}
-            </span>
-          </motion.div>
-
           <h1 className="text-4xl md:text-6xl font-bold mb-8">
             <span className="bg-gradient-to-r from-brand-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
               {t.about.title}

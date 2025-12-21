@@ -69,17 +69,6 @@ const SpeedReadingSection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
-          <motion.div
-            initial={{ scale: 0 }}
-            whileInView={{ scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ type: "spring", stiffness: 200, delay: 0.2 }}
-            className="inline-flex items-center gap-2 bg-brand-500/10 backdrop-blur-sm px-6 py-3 rounded-full border border-brand-500/30 mb-6"
-          >
-            <Sparkles className="w-5 h-5 text-brand-500" />
-            <span className="text-brand-400 font-semibold">{t.speedReading.instructor}</span>
-          </motion.div>
-
           <h2 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             <span className="bg-gradient-to-r from-brand-500 via-red-500 to-yellow-500 bg-clip-text text-transparent">
               {t.speedReading.title}

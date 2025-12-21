@@ -9,6 +9,11 @@ export const metadata = {
   description: 'Ankara Kızılay\'da 20 yıllık deneyimimizle İngilizce, Türkçe, YDS, YÖKDİL, TOEFL, IELTS, SAT, YÖS ve Hızlı Okuma eğitimleri. Küçük gruplar halinde kaliteli eğitim.',
   keywords: 'İngilizce kursu Ankara, Türkçe kursu yabancılar, YDS hazırlık, YÖKDİL, TOEFL, IELTS, SAT, YÖS, Hızlı okuma, Etkili eğitim',
   authors: [{ name: 'Etkili Eğitim Kurumları' }],
+  icons: {
+    icon: '/10.png',
+    shortcut: '/10.png',
+    apple: '/10.png',
+  },
   openGraph: {
     title: 'Etkili Eğitim Kurumları',
     description: 'Ankara\'nın en güvenilir dil eğitimi ve akademik hazırlık kurumu',
