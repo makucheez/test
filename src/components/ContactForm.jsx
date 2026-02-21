@@ -196,7 +196,7 @@ const ContactForm = () => {
           <Button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-gradient-to-r from-brand-500 to-purple-500 hover:from-brand-600 hover:to-purple-600 text-white py-6 text-base font-semibold shadow-lg shadow-brand-500/30 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+            className="w-full bg-brand-500/20 hover:bg-brand-500/30 border border-brand-500/50 hover:border-brand-500/80 text-brand-300 hover:text-white py-6 text-base font-semibold disabled:opacity-50 disabled:cursor-not-allowed transition-all"
           >
             {isSubmitting ? (
               <>
