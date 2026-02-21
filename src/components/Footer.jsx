@@ -15,6 +15,7 @@ const Footer = () => {
     { name: t.nav.turkishCourses, href: '/turkce-kurslari' },
     { name: t.nav.english, href: '/ingilizce' },
     { name: t.nav.speedReading, href: '/hizli-okuma' },
+    { name: t.nav.gallery, href: '/galeri' },
     { name: t.nav.contact, href: '/iletisim' }
   ];
 

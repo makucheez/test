@@ -7,6 +7,7 @@ export const translations = {
       english: 'İngilizce',
       speedReading: 'Hızlı Okuma',
       blog: 'Blog',
+      gallery: 'Galeri',
       contact: 'İletişim'
     },
     hero: {
@@ -440,6 +441,11 @@ export const translations = {
         'SAT - YÖS',
         'Yurt Dışı Eğitim'
       ]
+    },
+    gallery: {
+      title: 'Galeri',
+      titleSpan: 'Fotoğraflarımız',
+      subtitle: 'Etkili Eğitim Kurumları\'ndan kareler'
     }
   },
   en: {
@@ -450,6 +456,7 @@ export const translations = {
       english: 'English',
       speedReading: 'Speed Reading',
       blog: 'Blog',
+      gallery: 'Gallery',
       contact: 'Contact'
     },
     hero: {
@@ -883,6 +890,11 @@ export const translations = {
         'SAT - YÖS',
         'Study Abroad'
       ]
+    },
+    gallery: {
+      title: 'Gallery',
+      titleSpan: 'Our Photos',
+      subtitle: 'Moments from Etkili Eğitim Kurumları'
     }
   }
 };
