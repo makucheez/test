@@ -24,7 +24,7 @@ export const translations = {
     quickInfo: {
       title: 'Hizmetlerimiz',
       titleSpan: '',
-      subtitle: '20 yıllık deneyimimizle başarıya giden yolda yanınızdayız',
+      subtitle: '25 yıllık deneyimimizle başarıya giden yolda yanınızdayız',
       services: {
         turkish: 'Türkçe Kursları',
         english: 'İngilizce Eğitimi',
@@ -35,13 +35,13 @@ export const translations = {
     about: {
       title: 'Etkili Eğitim Kurumları',
       titleSpan: 'Hakkında',
-      desc1: 'Etkili Eğitim Kurumları, Yunus Canlı ve Yaşar Gözel kurucuları olarak 20 yıl önce faaliyete başlamış ve şu anda Karanfil 2 Sokak No:30/5-6 Kızılay/Ankara adresinde hijyenik bir ortamda hizmet vermektedir.',
+      desc1: 'Etkili Eğitim Kurumları, Yunus Canlı ve Yaşar Gözel kurucuları olarak 2000  yılında   faaliyete başlamış olup halen Karanfil 2 Sokak No:30/5-6 Kızılay/Ankara adresinde hijyenik bir ortamda hizmet vermektedir.',
       desc2: 'Genel İngilizce, Akademik Eğitimler (YDS, YÖKDİL, SAT, YÖS, AÖF, TOEFL, IELTS, Hazırlık Atlama, TEFL-TESOL ve İş Sınavlarına Hazırlık), Yabancılar için Türkçe (TÖMER), Hızlı Okuma Teknikleri ve Yurt Dışı Eğitim konularında küçük gruplar halinde çalışmalarımızı sürdürmekteyiz.',
       desc3: 'Bireyi temel alarak birebir ve küçük gruplar halinde verdiğimiz eğitimlerle, üç aşamalı eğitim süreci sonunda sizlere başarıyı sunuyoruz.',
       features: {
         experience: {
-          title: '20 Yıllık Deneyim',
-          desc: 'Yunus Canlı ve Yaşar Gözel önderliğinde 20 yıldır kaliteli eğitim hizmeti.'
+          title: '25 Yıllık Deneyim',
+          desc: 'Yunus Canlı ve Yaşar Gözel önderliğinde 25 yıldır kaliteli eğitim hizmeti.'
         },
         smallGroups: {
           title: 'Küçük Gruplar',
@@ -68,7 +68,7 @@ export const translations = {
     turkishCourses: {
       title: 'Yabancılar İçin',
       titleSpan: 'Türkçe Kursları',
-      desc1: 'Türkiye Cumhuriyeti Milli Eğitim Bakanlığına bağlı Etkili Türkçe Kursu, dört temel dil becerisinin (okuma, yazma, dinleme ve konuşma) öğretilip geliştirilmesini sağlar.',
+      desc1: "Türkiye Cumhuriyeti Milli Eğitim Bakanlığı'na Bağlı Özel Öğretim Kurumudur. Etkili Türkçe Kursu, dört temel dil becerisinin (okuma, yazma, dinleme ve konuşma) öğretilip geliştirilmesini sağlar.",
       desc2: 'Öğrenim etkinliklerimiz görsel ve işitsel araçlarla desteklenir. Online ve yüz yüze kurs seçenekleri mevcuttur.',
       enrollBtn: 'Ön Kayıt Formu İçin Bize Yazın',
       enrollToast: 'Kayıt Talebi',
@@ -97,11 +97,11 @@ export const translations = {
           id: 1,
           title: 'Temel Seviye Türkçe (A1-A2)',
           description: 'Hiç Türkçe bilmeyen yabancı öğrenciler için temel dil becerileri kazandıran kursumuz. 4 ayda okuma, konuşma, anlama ve yazma becerilerini kazanacaksınız.',
-          duration: '4 ay (400 saat)',
+          duration: '4 ay',
           level: 'Başlangıç (A1-A2)',
           students: '10-15 kişi',
-          schedule: 'Haftada 2 gün, günde 3 saat (ayda 100 saat)',
-          price: '300 USD',
+          schedule: 'Haftada 2 gün, günde 4 ders saati',
+          price: 'Bilgi için iletişime geçiniz',
           features: [
             'Temel Türkçe gramer yapıları',
             'Günlük hayat konuşmaları',
@@ -122,7 +122,7 @@ export const translations = {
           duration: '4 ay',
           level: 'Orta (B1)',
           students: '10-15 kişi',
-          schedule: 'Haftada 2 gün, günde 3 saat',
+          schedule: 'Haftada 2 gün, günde 4 ders saati',
           price: 'Bilgi için iletişime geçin',
           features: [
             'Orta seviye gramer konuları',
@@ -179,7 +179,7 @@ export const translations = {
       requirementsList: [
         'Başvuru formu eksiksiz doldurulmalıdır',
         'Kimlik bilgileri okunaklı şekilde verilmelidir',
-        '300 USD kurs ücreti Ziraat Bankası hesabına yatırılmalıdır',
+        'Kurs ücreti başvuru formunda belirtilen  banka hesabına yatırılmalıdır.',
         'Banka makbuzunda öğrenci ismi belirtilmelidir'
       ],
       policiesList: [
@@ -213,7 +213,7 @@ export const translations = {
       levelsTitle: 'Kurs Seviyeleri',
       getInfo: 'Bilgi Al',
       bottomTitle: 'Konuşma ve Öğrenme Hayalleriniz Gerçek Olsun!',
-      bottomDesc: 'Uygun fiyat ve taksitlerle, başarıyı sunan Etkili Eğitim Kurumları sizlere başarıyı sunar. Geleceğinizi garantilemenin yolu Etkili Eğitim Kurumları!',
+      bottomDesc: 'Uygun fiyat ve taksitlerle, başarıyı sunan Etkili Eğitim Kurumları sizlere başarıyı sağlar. Geleceğinizi garantilemenin yolu Etkili Eğitim Kurumları!',
       contactNow: 'Hemen İletişime Geçin',
       requirement: 'Gereksinim:',
       program: 'Program:',
@@ -379,17 +379,17 @@ export const translations = {
       subtitle: 'Eğitim programlarımız ve hizmetlerimiz hakkında bilgi almak için bizimle iletişime geçebilirsiniz.',
       institutionName: 'Kurum Adı',
       institutionValue: 'Etkili Eğitim Kurumları',
-      institutionDetail: 'Türkiye Cumhuriyeti Milli Eğitim Bakanlığı\'na Bağlı',
+      institutionDetail: 'Türkiye Cumhuriyeti Milli Eğitim Bakanlığı\'na Bağlı Özel Öğretim Kurumudur.',
       address: 'Adres',
       addressValue: 'Karanfil 2 Sokak No:30/5-6',
       addressDetail: 'Kızılay / ANKARA',
       email: 'E-Posta',
       emailDetail: 'Ön kayıt formu için bize yazın',
       phone: 'Telefon',
-      phoneValue: 'Bilgi için bize ulaşın',
+      phoneValue: '0(312) 418 66 26 - 0(532) 363 28 85',
       phoneDetail: 'Çalışma saatleri içinde',
       hours: 'Çalışma Saatleri',
-      hoursValue: 'Hafta içi: 09:00 - 18:00',
+      hoursValue: 'Hafta içi: 10:00 - 20:00',
       hoursDetail: 'Resmi ve dini bayramlarda kapalı',
       website: 'Web Sitesi',
       websiteDetail: 'Hızlı Okuma Eğitmeni',
@@ -467,7 +467,7 @@ export const translations = {
     quickInfo: {
       title: 'Our Services',
       titleSpan: '',
-      subtitle: 'With our 20 years of experience, we are with you on the road to success',
+      subtitle: 'With our 25 years of experience, we are with you on the road to success',
       services: {
         turkish: 'Turkish Courses',
         english: 'English Education',
@@ -478,13 +478,13 @@ export const translations = {
     about: {
       title: 'About',
       titleSpan: 'Etkili Education Institutions',
-      desc1: 'Etkili Education Institutions was founded 20 years ago by Yunus Canlı and Yaşar Gözel, and currently provides services in a hygienic environment at Karanfil 2 Street No:30/5-6 Kızılay/Ankara.',
+      desc1: 'Etkili Education Institutions was founded 25 years ago by Yunus Canlı and Yaşar Gözel, and currently provides services in a hygienic environment at Karanfil 2 Street No:30/5-6 Kızılay/Ankara.',
       desc2: 'We continue our work in small groups in General English, Academic Education (YDS, YÖKDİL, SAT, YÖS, AÖF, TOEFL, IELTS, Proficiency Preparation, TEFL-TESOL and Business Exam Preparation), Turkish for Foreigners (TÖMER), Speed Reading Techniques and Study Abroad.',
       desc3: 'With our training based on the individual, one-on-one and in small groups, we offer you success at the end of the three-stage education process.',
       features: {
         experience: {
-          title: '20 Years Experience',
-          desc: 'Quality education service for 20 years under the leadership of Yunus Canlı and Yaşar Gözel.'
+          title: '25 Years Experience',
+          desc: 'Quality education service for 25 years under the leadership of Yunus Canlı and Yaşar Gözel.'
         },
         smallGroups: {
           title: 'Small Groups',
@@ -540,11 +540,11 @@ export const translations = {
           id: 1,
           title: 'Basic Level Turkish (A1-A2)',
           description: 'Our course that provides basic language skills for foreign students who do not know Turkish at all. In 4 months you will gain reading, speaking, comprehension and writing skills.',
-          duration: '4 months (400 hours)',
+          duration: '4 months',
           level: 'Beginner (A1-A2)',
           students: '10-15 people',
-          schedule: '2 days a week, 3 hours a day (100 hours per month)',
-          price: '300 USD',
+          schedule: '2 days a week, 4 hours a day',
+          price: 'Contact for information',
           features: [
             'Basic Turkish grammar structures',
             'Daily life conversations',
@@ -565,7 +565,7 @@ export const translations = {
           duration: '4 months',
           level: 'Intermediate (B1)',
           students: '10-15 people',
-          schedule: '2 days a week, 3 hours a day',
+          schedule: '2 days a week, 4 hours a day',
           price: 'Contact for information',
           features: [
             'Intermediate level grammar topics',
@@ -585,7 +585,7 @@ export const translations = {
           duration: '4 months',
           level: 'Upper-Intermediate (B2)',
           students: '10-15 people',
-          schedule: '2 days a week, 3 hours a day',
+          schedule: '2 days a week, 4 hours a day',
           price: 'Contact for information',
           features: [
             'Advanced grammar topics',
@@ -605,7 +605,7 @@ export const translations = {
           duration: '4 months',
           level: 'Advanced (C1)',
           students: '8-12 people',
-          schedule: '2 days a week, 3 hours a day',
+          schedule: '2 days a week, 4 hours a day',
           price: 'Contact for information',
           features: [
             'Academic Turkish',
@@ -622,7 +622,7 @@ export const translations = {
       requirementsList: [
         'Application form must be filled out completely',
         'Identity information must be provided legibly',
-        '300 USD course fee must be deposited to Ziraat Bank account',
+        'Course fee must be deposited to the bank account specified in the application form',
         'Student name must be specified on bank receipt'
       ],
       policiesList: [
@@ -829,10 +829,10 @@ export const translations = {
       email: 'Email',
       emailDetail: 'Write to us for pre-registration form',
       phone: 'Phone',
-      phoneValue: 'Contact us for information',
+      phoneValue: '0(312) 418 66 26 - 0(532) 363 28 85',
       phoneDetail: 'During working hours',
       hours: 'Working Hours',
-      hoursValue: 'Weekdays: 09:00 - 18:00',
+      hoursValue: 'Weekdays: 10:00 - 20:00',
       hoursDetail: 'Closed on official and religious holidays',
       website: 'Website',
       websiteDetail: 'Speed Reading Instructor',

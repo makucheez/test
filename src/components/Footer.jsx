@@ -1,7 +1,6 @@
 'use client'
 
-import React from 'react';
-import { MapPin, Mail, Phone, Clock, Globe } from 'lucide-react';
+import { MapPin, Mail, Phone, Clock } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useTranslation } from '@/locales/translations';
 import Link from 'next/link';
@@ -33,8 +32,8 @@ const Footer = () => {
             </p>
             <p className="text-gray-400 text-sm leading-relaxed">
               {language === 'tr'
-                ? '20 yıllık deneyimimizle başarıya giden yolda yanınızdayız.'
-                : 'With our 20 years of experience, we are with you on the road to success.'}
+                ? '25 yıllık deneyimimizle başarıya giden yolda yanınızdayız.'
+                : 'With our 25 years of experience, we are with you on the road to success.'}
             </p>
           </div>
 
