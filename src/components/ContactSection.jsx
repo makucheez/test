@@ -1,8 +1,7 @@
 'use client'
 
-import React from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, Globe, Clock, Building, Sparkles, Briefcase } from 'lucide-react';
+import { MapPin, Phone, Mail, Globe, Clock, Briefcase } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/components/ui/use-toast';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -150,8 +149,8 @@ const ContactSection = () => {
 
           <p className="text-lg text-gray-400 max-w-3xl mx-auto">
             {language === 'tr'
-              ? '20 yıllık deneyimimizle sizlere hizmet vermekten mutluluk duyuyoruz. Sorularınız için bizimle iletişime geçin.'
-              : 'We are happy to serve you with our 20 years of experience. Contact us for your questions.'}
+              ? '25 yıllık deneyimimizle sizlere hizmet vermekten mutluluk duyuyoruz. Sorularınız için bizimle iletişime geçin.'
+              : 'We are happy to serve you with our 25 years of experience. Contact us for your questions.'}
           </p>
         </motion.div>
 
