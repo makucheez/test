@@ -10,13 +10,7 @@ const HeroSection = () => {
   const t = useTranslation(language);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = [
-    'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920&q=80', // Öğrenciler çalışıyor
-    'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1920&q=80', // Kitaplar ve çalışma masası
-    'https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=1920&q=80', // Sınıf ortamı
-    'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1920&q=80', // Öğrenciler grup çalışması
-    'https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=1920&q=80'  // Kitap okuma
-  ];
+  const images = ['/1.jpeg', '/2.jpeg', '/3.jpeg', '/4.jpeg', '/5.jpeg'];
 
   useEffect(() => {
     const interval = setInterval(() => {
