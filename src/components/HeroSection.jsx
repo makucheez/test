@@ -10,7 +10,7 @@ const HeroSection = () => {
   const t = useTranslation(language);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = ['/1.jpeg', '/2.jpeg', '/3.jpeg', '/4.jpeg', '/5.jpeg'];
+  const images = ['/16.jpeg', '/15.jpeg', '/14.jpeg', '/7.jpeg', '/101.jpeg'];
 
   useEffect(() => {
     const interval = setInterval(() => {
